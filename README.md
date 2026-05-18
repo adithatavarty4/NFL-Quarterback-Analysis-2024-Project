@@ -28,7 +28,7 @@ QB-Performance-Index/
 │   └── quarterback_analysis.ipynb
 ├── visuals/
 │   ├── qpi_rankings.png
-│   ├── salary_distribution.png
+│   ├── feature_importance.png
 │   └── kmeans_clusters.png
 └── docs/
     ├── executive_summary.pdf
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ### 3. Run the Notebook
 
 ```bash
-jupyter notebook notebooks/Phase\ III.ipynb
+jupyter notebook notebooks/quarterback_analysis.ipynb
 ```
 
 ---
@@ -112,6 +112,22 @@ The final QB Performance Index (QPI) applies a non-linear salary penalty:
 This adjustment ensures that higher-paid quarterbacks must maintain elite efficiency to generate positive value scores.
 
 ---
+## Visualizations
+
+### QPI Rankings
+![QPI Rankings](visuals/qpi_rankings.png)
+
+### Salary Distribution
+![Salary Distribution](visuals/feature_importance.png)
+
+### QB Archetype Clusters
+![K-Means Clusters](visuals/kmeans_clusters.png)
+
+## Results
+
+- Identified undervalued quarterbacks using adjusted efficiency metrics
+- Found passing yards to be the strongest predictor of salary
+- Clustered quarterbacks into three archetypes using K-Means
 
 ## Tech Stack
 
