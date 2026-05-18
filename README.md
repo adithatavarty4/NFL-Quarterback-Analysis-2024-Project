@@ -151,4 +151,4 @@ This adjustment ensures that higher-paid quarterbacks must maintain elite effici
 
 ## Authors
 
-Georgia Institute of Technology — CS 2316 (Group 98)
+Aditya Thatavarty and Devesh Venkateswaran
