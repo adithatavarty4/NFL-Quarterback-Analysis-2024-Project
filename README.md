@@ -117,8 +117,8 @@ This adjustment ensures that higher-paid quarterbacks must maintain elite effici
 ### QPI Rankings
 ![QPI Rankings](visuals/qpi_rankings.png)
 
-### Salary Distribution
-![Salary Distribution](visuals/feature_importance.png)
+### Feature Importance
+![Feature Importance](visuals/feature_importance.png)
 
 ### QB Archetype Clusters
 ![K-Means Clusters](visuals/kmeans_clusters.png)
